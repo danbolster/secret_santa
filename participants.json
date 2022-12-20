@@ -1,0 +1,20 @@
+[{
+    "name" : "Person 1",
+    "email" : "email@example.com",
+    "exclude" : ["Person 3"]
+},
+{
+    "name" : "Person 2",
+    "email" : "email2@example.com",
+    "exclude" : []
+},
+{    
+    "name" : "Person 3",
+    "email" : "email3@example.com",
+    "exclude" : ["Person 1"]
+},
+{
+    "name" : "Person 4",
+    "email" : "email4@example.com",
+    "exclude" : []
+}]

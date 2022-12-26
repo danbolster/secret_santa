@@ -63,7 +63,7 @@ def email_handling(pair):
         This year, your secret santa is %s!
         </p>
     </body>
-    </html>""" % (gifter['name'],giftee['name'])
+    </html>""" % (giftee['name'],gifter['name'])
 
 
     part2 = MIMEText(html, 'html')
@@ -87,5 +87,7 @@ def main():
 
     for pair in pairings:
         email_handling(pair)
+    print("emails sent!!")
+
 
 main()
